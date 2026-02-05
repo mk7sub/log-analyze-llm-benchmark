@@ -1,0 +1,1040 @@
+2026-02-05 10:00:00 INFO order=normal_small-1 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_small-1 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_small-1 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_small-2 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_small-2 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_small-2 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_small-3 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_small-3 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_small-3 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_small-4 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-1 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-1 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-1 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-2 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-2 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-2 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-3 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-3 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-3 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-4 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-4 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-4 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-5 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-5 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-5 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-6 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-6 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-6 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-7 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-7 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-7 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-8 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-8 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-8 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-9 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-9 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-9 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-10 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-10 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-10 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-11 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-11 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-11 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-12 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-12 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-12 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-13 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-13 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-13 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-14 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-14 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-14 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-15 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-15 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-15 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-16 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-16 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_medium-16 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_medium-17 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_medium-17 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-1 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-1 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-1 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-2 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-2 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-2 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-3 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-3 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-3 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-4 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-4 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-4 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-5 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-5 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-5 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-6 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-6 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-6 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-7 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-7 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-7 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-8 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-8 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-8 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-9 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-9 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-9 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-10 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-10 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-10 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-11 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-11 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-11 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-12 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-12 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-12 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-13 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-13 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-13 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-14 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-14 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-14 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-15 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-15 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-15 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-16 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-16 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-16 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-17 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-17 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-17 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-18 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-18 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-18 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-19 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-19 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-19 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-20 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-20 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-20 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-21 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-21 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-21 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-22 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-22 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-22 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-23 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-23 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-23 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-24 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-24 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-24 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-25 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-25 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-25 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-26 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-26 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-26 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-27 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-27 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-27 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-28 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-28 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-28 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-29 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-29 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-29 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-30 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-30 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-30 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-31 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-31 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-31 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-32 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-32 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-32 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-33 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-33 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-33 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-34 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-34 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-34 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-35 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-35 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-35 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-36 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-36 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-36 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-37 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-37 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-37 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-38 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-38 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-38 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-39 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-39 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-39 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-40 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-40 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-40 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-41 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-41 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-41 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-42 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-42 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-42 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-43 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-43 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-43 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-44 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-44 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-44 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-45 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-45 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-45 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-46 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-46 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-46 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-47 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-47 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-47 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-48 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-48 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-48 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-49 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-49 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-49 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-50 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-50 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-50 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-51 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-51 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-51 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-52 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-52 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-52 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-53 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-53 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-53 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-54 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-54 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-54 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-55 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-55 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-55 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-56 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-56 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-56 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-57 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-57 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-57 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-58 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-58 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-58 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-59 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-59 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-59 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-60 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-60 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-60 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-61 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-61 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-61 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-62 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-62 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-62 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-63 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-63 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-63 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-64 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-64 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-64 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-65 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-65 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-65 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-66 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-66 status=仕掛中 message=調理開始
+2026-02-05 10:00:00 INFO order=normal_large-66 status=完了 message=調理完了・呼び出し
+2026-02-05 10:00:00 INFO order=normal_large-67 status=受付済み message=受付完了
+2026-02-05 10:00:00 INFO order=normal_large-67 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_small-N1 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_small-N1 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_small-N1 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_small-M2 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_small-M2 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_small-N3 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_small-N3 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_small-N3 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_small-M4 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_small-M4 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_medium-N1 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-N1 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_medium-N1 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_medium-M2 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-M2 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_medium-N3 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-N3 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_medium-N3 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_medium-M4 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-M4 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_medium-N5 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-N5 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_medium-N5 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_medium-M6 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-M6 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_medium-N7 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-N7 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_medium-N7 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_medium-M8 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-M8 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_medium-N9 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-N9 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_medium-N9 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_medium-M10 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-M10 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_medium-N11 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-N11 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_medium-N11 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_medium-M12 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-M12 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_medium-N13 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-N13 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_medium-N13 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_medium-M14 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-M14 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_medium-N15 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-N15 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_medium-N15 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_medium-M16 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-M16 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_medium-N17 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-N17 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_medium-N17 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_medium-M18 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-M18 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_medium-N19 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-N19 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_medium-N19 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_medium-M20 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_medium-M20 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N1 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N1 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N1 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M2 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M2 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N3 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N3 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N3 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M4 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M4 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N5 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N5 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N5 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M6 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M6 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N7 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N7 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N7 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M8 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M8 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N9 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N9 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N9 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M10 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M10 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N11 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N11 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N11 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M12 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M12 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N13 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N13 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N13 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M14 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M14 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N15 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N15 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N15 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M16 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M16 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N17 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N17 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N17 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M18 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M18 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N19 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N19 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N19 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M20 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M20 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N21 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N21 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N21 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M22 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M22 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N23 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N23 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N23 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M24 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M24 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N25 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N25 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N25 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M26 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M26 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N27 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N27 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N27 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M28 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M28 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N29 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N29 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N29 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M30 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M30 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N31 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N31 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N31 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M32 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M32 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N33 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N33 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N33 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M34 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M34 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N35 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N35 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N35 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M36 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M36 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N37 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N37 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N37 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M38 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M38 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N39 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N39 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N39 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M40 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M40 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N41 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N41 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N41 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M42 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M42 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N43 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N43 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N43 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M44 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M44 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N45 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N45 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N45 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M46 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M46 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N47 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N47 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N47 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M48 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M48 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N49 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N49 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N49 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M50 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M50 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N51 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N51 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N51 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M52 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M52 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N53 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N53 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N53 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M54 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M54 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N55 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N55 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N55 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M56 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M56 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N57 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N57 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N57 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M58 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M58 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N59 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N59 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N59 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M60 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M60 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N61 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N61 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N61 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M62 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M62 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N63 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N63 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N63 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M64 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M64 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N65 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N65 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N65 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M66 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M66 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N67 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N67 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N67 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M68 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M68 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N69 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N69 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N69 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M70 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M70 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N71 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N71 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N71 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M72 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M72 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N73 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N73 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N73 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M74 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M74 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N75 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N75 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N75 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M76 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M76 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N77 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N77 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N77 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M78 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M78 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 11:00:00 INFO order=missing_large-N79 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-N79 status=仕掛中 message=調理開始
+2026-02-05 11:00:00 INFO order=missing_large-N79 status=完了 message=調理完了・呼び出し
+2026-02-05 11:00:00 INFO order=missing_large-M80 status=受付済み message=受付完了
+2026-02-05 11:00:00 INFO order=missing_large-M80 status=完了 message=調理完了・呼び出し (仕掛中欠損)
+2026-02-05 12:00:00 INFO order=reorder_small-N1 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_small-N1 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_small-N1 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_small-R2 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_small-R2 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_small-R2 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_small-N3 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_small-N3 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_small-N3 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_small-R4 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-N1 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_medium-N1 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_medium-N1 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-R2 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R2 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R2 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-N3 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_medium-N3 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_medium-N3 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-R4 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R4 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R4 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-N5 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_medium-N5 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_medium-N5 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-R6 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R6 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R6 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-N7 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_medium-N7 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_medium-N7 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-R8 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R8 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R8 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-N9 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_medium-N9 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_medium-N9 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-R10 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R10 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R10 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-N11 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_medium-N11 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_medium-N11 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-R12 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R12 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R12 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-N13 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_medium-N13 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_medium-N13 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-R14 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R14 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R14 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-N15 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_medium-N15 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_medium-N15 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-R16 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R16 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_medium-R16 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_medium-N17 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_medium-N17 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N1 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N1 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N1 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R2 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R2 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R2 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N3 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N3 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N3 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R4 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R4 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R4 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N5 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N5 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N5 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R6 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R6 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R6 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N7 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N7 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N7 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R8 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R8 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R8 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N9 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N9 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N9 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R10 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R10 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R10 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N11 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N11 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N11 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R12 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R12 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R12 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N13 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N13 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N13 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R14 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R14 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R14 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N15 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N15 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N15 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R16 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R16 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R16 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N17 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N17 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N17 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R18 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R18 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R18 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N19 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N19 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N19 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R20 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R20 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R20 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N21 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N21 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N21 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R22 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R22 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R22 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N23 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N23 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N23 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R24 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R24 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R24 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N25 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N25 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N25 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R26 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R26 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R26 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N27 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N27 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N27 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R28 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R28 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R28 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N29 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N29 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N29 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R30 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R30 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R30 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N31 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N31 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N31 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R32 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R32 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R32 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N33 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N33 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N33 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R34 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R34 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R34 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N35 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N35 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N35 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R36 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R36 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R36 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N37 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N37 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N37 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R38 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R38 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R38 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N39 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N39 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N39 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R40 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R40 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R40 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N41 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N41 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N41 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R42 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R42 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R42 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N43 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N43 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N43 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R44 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R44 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R44 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N45 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N45 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N45 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R46 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R46 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R46 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N47 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N47 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N47 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R48 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R48 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R48 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N49 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N49 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N49 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R50 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R50 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R50 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N51 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N51 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N51 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R52 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R52 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R52 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N53 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N53 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N53 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R54 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R54 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R54 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N55 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N55 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N55 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R56 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R56 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R56 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N57 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N57 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N57 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R58 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R58 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R58 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N59 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N59 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N59 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R60 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R60 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R60 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N61 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N61 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N61 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R62 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R62 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R62 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N63 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N63 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N63 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R64 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R64 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R64 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N65 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N65 status=仕掛中 message=調理開始
+2026-02-05 12:00:00 INFO order=reorder_large-N65 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-R66 status=仕掛中 message=調理開始 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R66 status=受付済み message=受付完了 (順序逆転)
+2026-02-05 12:00:00 INFO order=reorder_large-R66 status=完了 message=調理完了・呼び出し
+2026-02-05 12:00:00 INFO order=reorder_large-N67 status=受付済み message=受付完了
+2026-02-05 12:00:00 INFO order=reorder_large-N67 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_small-N1 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_small-N1 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_small-N1 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_small-X2 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_small-X2 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_small-N3 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_small-N3 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_small-N3 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_small-X4 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_small-X4 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_medium-N1 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_medium-N1 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_medium-N1 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_medium-X2 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_medium-X2 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_medium-N3 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_medium-N3 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_medium-N3 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_medium-X4 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_medium-X4 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_medium-N5 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_medium-N5 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_medium-N5 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_medium-X6 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_medium-X6 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_medium-N7 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_medium-N7 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_medium-N7 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_medium-X8 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_medium-X8 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_medium-N9 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_medium-N9 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_medium-N9 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_medium-X10 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_medium-X10 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_medium-N11 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_medium-N11 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_medium-N11 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_medium-X12 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_medium-X12 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_medium-N13 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_medium-N13 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_medium-N13 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_medium-X14 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_medium-X14 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_medium-N15 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_medium-N15 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_medium-N15 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_medium-X16 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_medium-X16 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_medium-N17 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_medium-N17 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_medium-N17 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_medium-X18 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_medium-X18 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_medium-N19 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_medium-N19 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_medium-N19 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_medium-X20 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_medium-X20 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N1 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N1 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N1 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X2 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X2 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N3 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N3 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N3 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X4 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X4 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N5 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N5 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N5 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X6 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X6 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N7 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N7 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N7 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X8 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X8 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N9 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N9 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N9 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X10 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X10 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N11 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N11 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N11 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X12 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X12 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N13 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N13 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N13 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X14 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X14 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N15 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N15 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N15 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X16 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X16 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N17 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N17 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N17 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X18 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X18 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N19 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N19 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N19 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X20 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X20 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N21 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N21 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N21 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X22 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X22 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N23 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N23 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N23 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X24 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X24 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N25 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N25 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N25 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X26 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X26 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N27 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N27 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N27 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X28 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X28 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N29 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N29 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N29 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X30 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X30 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N31 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N31 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N31 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X32 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X32 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N33 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N33 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N33 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X34 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X34 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N35 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N35 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N35 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X36 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X36 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N37 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N37 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N37 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X38 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X38 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N39 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N39 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N39 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X40 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X40 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N41 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N41 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N41 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X42 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X42 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N43 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N43 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N43 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X44 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X44 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N45 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N45 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N45 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X46 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X46 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N47 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N47 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N47 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X48 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X48 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N49 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N49 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N49 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X50 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X50 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N51 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N51 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N51 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X52 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X52 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N53 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N53 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N53 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X54 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X54 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N55 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N55 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N55 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X56 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X56 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N57 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N57 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N57 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X58 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X58 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N59 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N59 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N59 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X60 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X60 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N61 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N61 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N61 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X62 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X62 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N63 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N63 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N63 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X64 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X64 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N65 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N65 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N65 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X66 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X66 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N67 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N67 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N67 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X68 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X68 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N69 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N69 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N69 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X70 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X70 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N71 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N71 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N71 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X72 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X72 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N73 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N73 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N73 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X74 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X74 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N75 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N75 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N75 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X76 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X76 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N77 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N77 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N77 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X78 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X78 status=仕掛中 message=キッチン端末との通信エラー
+2026-02-05 13:00:00 INFO order=extra_large-N79 status=受付済み message=受付完了
+2026-02-05 13:00:00 INFO order=extra_large-N79 status=仕掛中 message=調理開始
+2026-02-05 13:00:00 INFO order=extra_large-N79 status=完了 message=調理完了・呼び出し
+2026-02-05 13:00:00 WARN order=extra_large-X80 status=キャンセル message=ユーザーキャンセル (仕様外ステータス)
+2026-02-05 13:00:00 ERROR order=extra_large-X80 status=仕掛中 message=キッチン端末との通信エラー

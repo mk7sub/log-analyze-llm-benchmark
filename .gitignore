@@ -1,0 +1,24 @@
+# Pythonが自動生成するキャッシュ
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ビルド・配布パッケージ関連
+dist/
+build/
+*.egg-info/
+
+# 仮想環境フォルダ
+.venv/
+venv/
+ENV/
+env/
+
+# モデルデータや大きなバイナリ
+*.bin
+*.gguf
+*.onnx
+models/
+
+.env
+.venv
