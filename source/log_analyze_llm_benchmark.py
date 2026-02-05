@@ -13,6 +13,35 @@ LLM_MODELS = [
 ]
 
 
+def ensure_models_available(models: List[str]) -> None:
+    """Ollamaに対象モデルがなければ事前にpullしておく。"""
+    try:
+        existing = {m["name"] for m in ollama.list().get("models", [])}
+    except Exception as e:
+        print(f"[MODEL] モデル一覧取得に失敗しました: {e}")
+        existing = set()
+
+    for model in models:
+        if model in existing:
+            print(f"[MODEL] {model} は既に利用可能です")
+            continue
+        print(f"[MODEL] {model} が見つからないため、pull を実行します...")
+        try:
+            # ストリーミング進捗をそのまま標準出力に流す
+            for progress in ollama.pull(model=model, stream=True):
+                status = progress.get("status")
+                percent = progress.get("completed")
+                total = progress.get("total")
+                if status:
+                    if percent is not None and total:
+                        print(f"  {status}: {percent}/{total}")
+                    else:
+                        print(f"  {status}")
+            print(f"[MODEL] {model} のpullが完了しました")
+        except Exception as e:
+            print(f"[MODEL] {model} のpullに失敗しました: {e}")
+
+
 def ollama_generate(model: str, prompt: str) -> Tuple[str, Optional[int], Optional[int]]:
     """ollama-pythonでプロンプトを送信し、応答とeval情報を返す。
 
@@ -212,6 +241,9 @@ def main(
 
     テストケースはCSV、ログは単一ファイルから取得する。
     """
+    # ベンチマーク開始前に対象モデルが利用可能か確認し、足りなければpullする
+    ensure_models_available(LLM_MODELS)
+
     test_cases = load_test_cases_from_csv(test_case_csv, log_path)
 
     all_results: List[Dict] = []
