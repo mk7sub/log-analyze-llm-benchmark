@@ -1,0 +1,8 @@
+[MODEL] ダウンロード済みモデル一覧:
+  - gemma3:12b
+  - gpt-oss:20b
+  - llama3.1:8b
+  - phi4-mini
+  - phi4-mini:latest
+[MODEL] llama3.1:8b は既に利用可能です
+[WARMUP] llama3.1:8b ...

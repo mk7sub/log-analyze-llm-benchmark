@@ -2,30 +2,114 @@ import ollama
 import time
 import pandas as pd
 import json
+import os
 from typing import Tuple, Optional, List, Dict
+
+
+LOG_FILE = "ollama_benchmark_output.txt"
+RESULTS_CSV = "ollama_benchmark_results.csv"
+
+
+def log_print(*args, **kwargs) -> None:
+    """標準出力へのprintに加えて、同じ内容をテキストファイルにも書き出す。"""
+    # まず通常どおりターミナルに出力
+    print(*args, **kwargs)
+
+    # 同じ内容をログファイルにも追記
+    text = " ".join(str(a) for a in args)
+    end = kwargs.get("end", "\n")
+    try:
+        with open(LOG_FILE, "a", encoding="utf-8") as f:
+            f.write(text)
+            f.write(end)
+    except Exception:
+        # ログファイルへの書き込み失敗は処理を止めない
+        pass
+
+
+def append_result_to_csv(row: Dict) -> None:
+    """1件分の結果をCSVファイルに追記する。
+
+    スクリプトが途中で中断されても、ここまでの結果はCSVに残るようにするためのもの。
+    最後に main の df.to_csv で同じパスに上書き保存するので、完走時は整ったCSVが得られる。
+    """
+    try:
+        exists = os.path.exists(RESULTS_CSV)
+        df_row = pd.DataFrame([row])
+        df_row.to_csv(
+            RESULTS_CSV,
+            mode="a" if exists else "w",
+            header=not exists,
+            index=False,
+        )
+    except Exception as e:
+        # CSV書き込み失敗はベンチマーク本体を止めない
+        log_print(f"[WARN] CSV append failed: {e}")
 
 # 比較対象モデル
 LLM_MODELS = [
-    "phi-4-mini",
-    "llama3.2-8b",
-    "gpt-oss-20b",
-    "gemma:3b",
+    # "phi4-mini:latest",
+    "llama3.1:8b",
+    # "gpt-oss:20b",
+    # "gemma3:12b",
 ]
 
 
 def ensure_models_available(models: List[str]) -> None:
     """Ollamaに対象モデルがなければ事前にpullしておく。"""
     try:
-        existing = {m["name"] for m in ollama.list().get("models", [])}
+        listed = ollama.list()
+        # デバッグ用: 必要であれば一覧の生データを確認できる
+        # log_print(listed)
+        # ollama.list() の戻り値はバージョンにより形が異なる可能性があるため、防御的に処理する
+        raw_models = None
+        if isinstance(listed, dict):
+            raw_models = listed.get("models")
+        else:
+            # dataclass / オブジェクトで models 属性を持つ場合
+            raw_models = getattr(listed, "models", None)
+            if raw_models is None:
+                # 単なるイテラブルの可能性
+                try:
+                    raw_models = list(listed)
+                except TypeError:
+                    raw_models = None
+
+        existing: set[str] = set()
+        if isinstance(raw_models, list):
+            for m in raw_models:
+                # ollama-python の Model オブジェクト or dict の両方に対応
+                name = None
+                if isinstance(m, dict):
+                    name = m.get("name") or m.get("model")
+                else:
+                    # Model(model="llama3.1:8b", ...) などのオブジェクトを想定
+                    name = getattr(m, "name", None) or getattr(m, "model", None)
+
+                if not name:
+                    continue
+
+                existing.add(name)
+                # "phi4-mini" で "phi4-mini:latest" を見つけられるようにする
+                if name.endswith(":latest"):
+                    existing.add(name.rsplit(":", 1)[0])
+
+        # 取得できたモデル名一覧をログ出力しておく（デバッグ用）
+        if existing:
+            log_print("[MODEL] ダウンロード済みモデル一覧:")
+            for name in sorted(existing):
+                log_print(f"  - {name}")
+        else:
+            log_print("[MODEL] ダウンロード済みモデルは0件と認識されています")
     except Exception as e:
-        print(f"[MODEL] モデル一覧取得に失敗しました: {e}")
+        log_print(f"[MODEL] モデル一覧取得に失敗しました: {e}")
         existing = set()
 
     for model in models:
         if model in existing:
-            print(f"[MODEL] {model} は既に利用可能です")
+            log_print(f"[MODEL] {model} は既に利用可能です")
             continue
-        print(f"[MODEL] {model} が見つからないため、pull を実行します...")
+        log_print(f"[MODEL] {model} が見つからないため、pull を実行します...")
         try:
             # ストリーミング進捗をそのまま標準出力に流す
             for progress in ollama.pull(model=model, stream=True):
@@ -34,12 +118,12 @@ def ensure_models_available(models: List[str]) -> None:
                 total = progress.get("total")
                 if status:
                     if percent is not None and total:
-                        print(f"  {status}: {percent}/{total}")
+                        log_print(f"  {status}: {percent}/{total}")
                     else:
-                        print(f"  {status}")
-            print(f"[MODEL] {model} のpullが完了しました")
+                        log_print(f"  {status}")
+            log_print(f"[MODEL] {model} のpullが完了しました")
         except Exception as e:
-            print(f"[MODEL] {model} のpullに失敗しました: {e}")
+            log_print(f"[MODEL] {model} のpullに失敗しました: {e}")
 
 
 def ollama_generate(model: str, prompt: str) -> Tuple[str, Optional[int], Optional[int]]:
@@ -62,21 +146,21 @@ def ollama_unload(model: str):
 
 def warmup_model(model: str):
     """モデルのウォーミングアップ（初回ロード）"""
-    print(f"[WARMUP] {model} ...")
+    log_print(f"[WARMUP] {model} ...")
     try:
         ollama_generate(model, "Hello")
-        print(f"[WARMUP] {model} done.")
+        log_print(f"[WARMUP] {model} done.")
     except Exception as e:
-        print(f"[WARMUP] {model} failed: {e}")
+        log_print(f"[WARMUP] {model} failed: {e}")
 
 def cooldown_model(model: str):
     """モデルのクールダウン（アンロード）"""
-    print(f"[COOLDOWN] Unloading {model} ...")
+    log_print(f"[COOLDOWN] Unloading {model} ...")
     try:
         ollama_unload(model)
-        print(f"[COOLDOWN] {model} unloaded.")
+        log_print(f"[COOLDOWN] {model} unloaded.")
     except Exception as e:
-        print(f"[COOLDOWN] {model} unload failed: {e}")
+        log_print(f"[COOLDOWN] {model} unload failed: {e}")
 
 
 def load_test_cases_from_csv(csv_path: str, log_path: str) -> List[Dict]:
@@ -188,7 +272,7 @@ def parse_label(response_text: str) -> str:
 
 def evaluate_model(model: str, test_cases: List[Dict]) -> List[Dict]:
     """本番計測: モデルでログ解析を実施し、t/sと正答有無を返す。"""
-    print(f"[EVAL] {model} ...")
+    log_print(f"[EVAL] {model} ...")
     results: List[Dict] = []
 
     for case in test_cases:
@@ -210,22 +294,24 @@ def evaluate_model(model: str, test_cases: List[Dict]) -> List[Dict]:
         else:
             tps = None
 
-        results.append(
-            {
-                "Model": model,
-                "CaseID": case_id,
-                "ExpectedLabel": expected_label,
-                "PredictedLabel": predicted_label,
-                "Correct": correct,
-                "EvalCount": eval_count,
-                "EvalDurationNs": eval_duration,
-                "TPS": tps,
-                "LogLength": len(log_text or ""),
-                "RawResponse": response_text,
-            }
-        )
+        row = {
+            "Model": model,
+            "CaseID": case_id,
+            "ExpectedLabel": expected_label,
+            "PredictedLabel": predicted_label,
+            "Correct": correct,
+            "EvalCount": eval_count,
+            "EvalDurationNs": eval_duration,
+            "TPS": tps,
+            "LogLength": len(log_text or ""),
+            "RawResponse": response_text,
+        }
 
-    print(f"[EVAL] {model} done.")
+        results.append(row)
+        # 1ケースごとにCSVへ追記
+        append_result_to_csv(row)
+
+    log_print(f"[EVAL] {model} done.")
     return results
 
 
@@ -273,9 +359,9 @@ if __name__ == "__main__":
                 AvgTPS=("TPS", lambda x: float(pd.Series(x).mean()) if len(x) > 0 else None),
             )
         )
-        print("\n=== Summary (per model) ===")
-        print(summary)
+        log_print("\n=== Summary (per model) ===")
+        log_print(summary)
 
-    # CSV保存
-    df.to_csv("ollama_benchmark_results.csv", index=False)
-    print("\nResults saved to 'ollama_benchmark_results.csv'")
+    # CSV保存（フル結果で上書き）
+    df.to_csv(RESULTS_CSV, index=False)
+    log_print(f"\nResults saved to '{RESULTS_CSV}'")
