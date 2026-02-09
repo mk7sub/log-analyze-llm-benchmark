@@ -5,10 +5,8 @@ import json
 import os
 from typing import Tuple, Optional, List, Dict
 
-
 LOG_FILE = "ollama_benchmark_output.txt"
 RESULTS_CSV = "ollama_benchmark_results.csv"
-
 
 def log_print(*args, **kwargs) -> None:
     """標準出力へのprintに加えて、同じ内容をテキストファイルにも書き出す。"""
@@ -25,7 +23,6 @@ def log_print(*args, **kwargs) -> None:
     except Exception:
         # ログファイルへの書き込み失敗は処理を止めない
         pass
-
 
 def append_result_to_csv(row: Dict) -> None:
     """1件分の結果をCSVファイルに追記する。
@@ -49,11 +46,10 @@ def append_result_to_csv(row: Dict) -> None:
 # 比較対象モデル
 LLM_MODELS = [
     # "phi4-mini:latest",
-    "llama3.1:8b",
-    # "gpt-oss:20b",
+    # "llama3.1:8b",
+    "gpt-oss:20b",
     # "gemma3:12b",
 ]
-
 
 def ensure_models_available(models: List[str]) -> None:
     """Ollamaに対象モデルがなければ事前にpullしておく。"""
@@ -125,7 +121,6 @@ def ensure_models_available(models: List[str]) -> None:
         except Exception as e:
             log_print(f"[MODEL] {model} のpullに失敗しました: {e}")
 
-
 def ollama_generate(model: str, prompt: str) -> Tuple[str, Optional[int], Optional[int]]:
     """ollama-pythonでプロンプトを送信し、応答とeval情報を返す。
 
@@ -140,10 +135,6 @@ def ollama_generate(model: str, prompt: str) -> Tuple[str, Optional[int], Option
     eval_duration = response.get("eval_duration")
     return response_text, eval_count, eval_duration
 
-def ollama_unload(model: str):
-    """ollama-pythonでモデルをアンロード"""
-    ollama.unload(model=model)
-
 def warmup_model(model: str):
     """モデルのウォーミングアップ（初回ロード）"""
     log_print(f"[WARMUP] {model} ...")
@@ -154,14 +145,13 @@ def warmup_model(model: str):
         log_print(f"[WARMUP] {model} failed: {e}")
 
 def cooldown_model(model: str):
-    """モデルのクールダウン（アンロード）"""
-    log_print(f"[COOLDOWN] Unloading {model} ...")
-    try:
-        ollama_unload(model)
-        log_print(f"[COOLDOWN] {model} unloaded.")
-    except Exception as e:
-        log_print(f"[COOLDOWN] {model} unload failed: {e}")
+    """モデルのクールダウン（現状はノーオペレーション）。
 
+    現在の ollama の Python クライアントには unload API がないため、
+    ここではログ出力だけを行い、実際のアンロードは行わない。
+    モデルはサーバ側の keep-alive 設定に従って自動で解放される。
+    """
+    log_print(f"[COOLDOWN] {model} cooldown (no unload API in ollama-python)")
 
 def load_test_cases_from_csv(csv_path: str, log_path: str) -> List[Dict]:
     """テストケースCSVと単一ログファイルからケース一覧を構成する。
@@ -178,7 +168,6 @@ def load_test_cases_from_csv(csv_path: str, log_path: str) -> List[Dict]:
         size:         small/middle/large などのサイズ区分
         description:  任意の説明
     """
-
     # ログファイルを行単位で読み込み
     with open(log_path, encoding="utf-8") as f:
         log_lines = f.read().splitlines()
@@ -212,7 +201,6 @@ def load_test_cases_from_csv(csv_path: str, log_path: str) -> List[Dict]:
         cases.append(case)
 
     return cases
-
 
 def build_prompt(log_text: str) -> str:
     """システム仕様と評価観点を含んだプロンプトを生成する。"""
@@ -258,7 +246,6 @@ def build_prompt(log_text: str) -> str:
 
     return f"{system_description}\n\n{instruction}\n\n--- ログ開始 ---\n{log_text}\n--- ログ終了 ---"
 
-
 def parse_label(response_text: str) -> str:
     """LLMの応答からPASS/FAILラベルを抽出する。未知の場合は"UNKNOWN"。"""
     first_line = response_text.strip().splitlines()[0] if response_text.strip() else ""
@@ -268,7 +255,6 @@ def parse_label(response_text: str) -> str:
     if "FAIL" in first_line:
         return "FAIL"
     return "UNKNOWN"
-
 
 def evaluate_model(model: str, test_cases: List[Dict]) -> List[Dict]:
     """本番計測: モデルでログ解析を実施し、t/sと正答有無を返す。"""
@@ -314,7 +300,6 @@ def evaluate_model(model: str, test_cases: List[Dict]) -> List[Dict]:
     log_print(f"[EVAL] {model} done.")
     return results
 
-
 def main(
     test_case_csv: str = "./testcase/testcases.csv",
     log_path: str = "./log/app.log",
@@ -345,7 +330,6 @@ def main(
 
     df = pd.DataFrame(all_results)
     return df
-
 
 if __name__ == "__main__":
     df = main()

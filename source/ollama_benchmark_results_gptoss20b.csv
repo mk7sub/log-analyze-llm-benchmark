@@ -1,0 +1,7 @@
+Model,CaseID,ExpectedLabel,PredictedLabel,Correct,EvalCount,EvalDurationNs,TPS,LogLength,RawResponse
+gpt-oss:20b,1,PASS,FAIL,0,318,65571439688,4.849672380431142,715,"結果: FAIL  
+order=normal_small-4 が「受付済み」だけで「仕掛中」「完了」に遷移していないため、必須のステータス遷移順序を満たしていません。"
+gpt-oss:20b,2,PASS,FAIL,0,226,51170494324,4.41660771477053,3653,"結果: FAIL  
+理由:  
+- ログに「normal_medium-17」の「完了」ステータスが欠落しており、必須の遷移順「受付済み → 仕掛中 → 完了」を守っていない。  
+- それ以外のエラーや例外は見当たらない。"

@@ -1,0 +1,121 @@
+Model,CaseID,ExpectedLabel,PredictedLabel,Correct,EvalCount,EvalDurationNs,TPS,LogLength,RawResponse
+gemma3:12b,1,PASS,PASS,1,41,17955586831,2.283411864279157,715,"結果: PASS
+全ての注文が「受付済み」→「仕掛中」→「完了」の順でステータスが遷移しており、ログにエラーや例外が含まれていません。"
+gemma3:12b,2,PASS,PASS,1,41,19151510710,2.1408232812982093,3653,"結果: PASS
+全ての注文が「受付済み」→「仕掛中」→「完了」の順でステータスを遷移しており、ログにエラーや例外が含まれていません。"
+gemma3:12b,3,PASS,UNKNOWN,0,423,202550751199,2.0883654960351903,14503,"このログは、2026年2月5日10:00に、normal_large-32からnormal_large-67までの注文が受付、調理開始、調理完了したことを示しています。
+
+**全体的な傾向:**
+
+*   **大量の注文処理:** 67件もの注文が短時間で処理されていることから、非常に高い注文量があることがわかります。
+*   **自動化されたプロセス:** 受付、調理開始、調理完了のプロセスがほぼ同時に発生していることから、注文処理が自動化されている可能性が高いです。
+*   **時間的な一貫性:** 全ての注文が同じ時刻（10:00）に処理されていることから、バッチ処理や定期的な処理が行われている可能性があります。
+
+**考えられる状況:**
+
+*   **ピーク時の注文処理:** 特定の時間帯（例えば朝食時やランチタイム）の注文が集中している可能性があります。
+*   **システムテスト:** システムの負荷テストや性能評価のために、大量の注文を生成している可能性があります。
+*   **自動化された注文処理システム:** 注文受付から調理完了までのプロセスが完全に自動化されたシステムが稼働している可能性があります。
+
+**追加で確認すべき点:**
+
+*   **注文の発生源:** 注文がどこから発生しているのか（オンライン注文、電話注文、店内注文など）を確認することで、注文量の増加要因を特定できる可能性があります。
+*   **調理時間:** 各注文の調理時間を確認することで、調理プロセスの効率性を評価できる可能性があります。
+*   **エラーログ:** エラーログを確認することで、注文処理中に発生した問題やエラーを特定できる可能性があります。
+*   **システムの状態:** システムのCPU使用率、メモリ使用量、ネットワークトラフィックなどを監視することで、システムが過負荷状態になっていないかを確認できる可能性があります。
+
+このログは、注文処理の状況を把握するための貴重な情報源となります。上記のような分析を行うことで、注文処理の効率化や問題解決に役立てることができます。"
+gemma3:12b,4,FAIL,FAIL,1,56,24044233298,2.329040785203913,739,"結果: FAIL
+ステータスの遷移順序が不正です。order=missing_small-N1, -M2, -M4 は「仕掛中」ステータスを経由せずに「受付済み」から「完了」に遷移しています。
+"
+gemma3:12b,5,FAIL,FAIL,1,100,48403779590,2.0659543706512444,3776,"結果: FAIL
+ステータスの遷移順序が「受付済み」→「仕掛中」→「完了」の順序で進んでいますが、一部の注文（M2, M4, M6, M8, M10, M12, M14, M16, M18, M20）は「仕掛中」ステータスをスキップして「完了」に遷移しています。これは不正な遷移です。"
+gemma3:12b,6,FAIL,UNKNOWN,0,543,264293827352,2.054531524403727,14976,"This log shows a series of order processing events, all occurring at 11:00:00 on 2026-02-05.  Let's break down what we can observe:
+
+**Overall Pattern:**
+
+*   **Order Prefix:** All orders share the prefix ""missing\_large\_"". This likely indicates a specific type or category of order.
+*   **Sequential Order Numbers:** The order numbers are sequential, starting from N61 and ending at M80. This suggests a batch of orders being processed.
+*   **Consistent Status Flow:** Each order follows the same progression:
+    1.  `受付済み` (Reception/Received):  The order has been received.
+    2.  `仕掛中` (In Progress/Work in Progress): The order is currently being processed.
+    3.  `完了` (Completed): The order has been completed.
+*   **Alternating Order Types:** The order numbers alternate between ""N"" and ""M"". This might indicate different order sources, departments, or processing paths.
+
+**Possible Interpretations & Questions:**
+
+*   **What does ""missing\_large\_"" signify?**  This is the most important question. It could be a product type, a specific campaign, or an error code.  Understanding this prefix is key to understanding the context of these orders.
+*   **What's the significance of ""N"" vs. ""M""?**  Do these prefixes represent different order channels, departments, or processing paths?
+*   **Why are all events timestamped at the same time?** This is unusual. It's highly unlikely that all these orders were *literally* received, started, and completed at precisely 11:00:00.  Possible explanations:
+    *   **Batch Processing:** The log might be showing a snapshot of a batch process.  The system might be updating the status of multiple orders simultaneously.
+    *   **Logging Issue:** There could be a problem with the logging system itself, causing all updates to be recorded with the same timestamp.
+    *   **Simplified Logging:** The log might be simplified for brevity, and the actual timestamps are more granular.
+*   **What is the scale of the operation?**  80 orders is a significant volume.  This suggests a high-volume order processing system.
+
+**In summary, this log provides a snapshot of a large batch of ""missing\_large\_"" orders being processed, but the exact meaning of the prefixes and the synchronized timestamps require further investigation to fully understand the context.**"
+gemma3:12b,7,FAIL,FAIL,1,68,30803748208,2.2075235630688548,734,"結果: FAIL
+ログの順番が不正です。reorder_small-R2のステータス遷移が「仕掛中」→「受付済み」→「完了」となっており、「受付済み」のステータスが「仕掛中」の後に来ているため、不正な遷移とみなされます。"
+gemma3:12b,8,FAIL,FAIL,1,53,25001886024,2.119840077229527,3753,"結果: FAIL
+ログを確認した結果、受付済み -> 仕掛中 -> 完了 の順でステータスが遷移しているものの、複数の注文が並行して処理されているため、個々の注文の遷移順序を検証することができません。
+"
+gemma3:12b,9,FAIL,UNKNOWN,0,428,197310853011,2.1691660315114,14903,"了解しました。ログの分析を承ります。
+
+このログは、2026年2月5日12:00の時点での注文処理状況を示しているようです。
+
+**全体的な傾向:**
+
+*   **注文の種類:** `reorder_large` という接頭辞が付いていることから、大量の注文の再注文である可能性があります。
+*   **処理フロー:** 注文受付 -> 調理開始 -> 調理完了 の一連の流れが、各注文に対して順次実行されていることがわかります。
+*   **注文番号:** NからRまで、N3からR67までの注文が処理されているようです。
+*   **同時並行処理:** 複数の注文がほぼ同時に処理されている様子が伺えます。
+
+**詳細な分析:**
+
+*   **N3からN67までの注文:** 全て「受付済み」から始まり、「仕掛中」を経て「調理完了」となっています。
+*   **R3からR67までの注文:** 同様に「受付済み」から始まり、「仕掛中」を経て「調理完了」となっています。
+*   **時間:** 全てのログが2026年2月5日12:00に集中しており、この時点でのスナップショットと考えられます。
+
+**考えられる質問と回答:**
+
+*   **現在の注文処理状況は？** 2026年2月5日12:00時点で、N3からR67までの注文が全て調理完了しています。
+*   **次に処理される注文は？** ログには記載されていません。
+*   **注文処理にかかる時間は？** ログだけでは正確な時間は不明です。受付から調理完了までの時間が注文ごとに異なる可能性があります。
+
+**追加情報があれば、より詳細な分析が可能です。** 例えば、
+
+*   このログはどのくらいの頻度で取得されたものか？
+*   注文処理にかかる時間の平均値は？
+*   注文のステータスはどのように変化するか？
+
+などです。"
+gemma3:12b,10,FAIL,FAIL,1,43,17213398826,2.4980540121484083,743,"結果: FAIL
+ログにERRORが含まれているため、テストは失敗と判定されます。具体的には、extra_small-X2とextra_small-X4に関する通信エラーが記録されています。
+"
+gemma3:12b,11,FAIL,FAIL,1,75,32291599753,2.3225854579419605,3796,"結果: FAIL
+ログにERRORが含まれているため、テストは失敗と判定されます。具体的には、extra_medium-X2, X4, X6, X8, X10, X12, X14, X16, X18, X20の注文で「キッチン端末との通信エラー」が発生しています。
+"
+gemma3:12b,12,FAIL,UNKNOWN,0,664,287623800313,2.308571124077414,15056,"このログデータから、以下の傾向が読み取れます。
+
+* **注文のパターン:** 注文は `N` で始まり、`X` で終わるパターンで発生している。`N` はおそらく新規注文を表し、`X` は注文の処理完了を表している。
+* **注文の処理フロー:** 各注文は、受付 (`受付済み`) -> 調理開始 (`仕掛中`) -> 調理完了 (`完了`) というフローで進んでいる。
+* **問題点:** `X` で終わる注文において、`ERROR` が頻繁に発生している。これは、注文処理の最終段階でエラーが発生していることを示唆している。また、`WARN` も頻繁に発生しており、何らかの問題が発生している可能性がある。
+* **注文数:** ログから、この時間帯に大量の注文 (80件以上) が発生していることがわかる。
+
+**詳細な分析と対応策:**
+
+1. **エラーの原因特定:** `ERROR` が発生している注文のログを詳細に調査し、エラーの原因を特定する必要がある。エラーメッセージやスタックトレースなどを確認し、問題の根本原因を突き止める。
+2. **警告の原因調査:** `WARN` が発生している注文についても、同様にログを調査し、問題の原因を特定する。警告は、エラーが発生する前の兆候である可能性があるため、早期に対処することで、より深刻な問題の発生を防ぐことができる。
+3. **システム負荷の確認:** 大量の注文が集中している時間帯にエラーが発生していることから、システム負荷が原因である可能性も考えられる。CPU使用率、メモリ使用量、ネットワーク帯域幅などを監視し、システムリソースがボトルネックになっていないか確認する。
+4. **注文処理の最適化:** 注文処理のフローを分析し、ボトルネックになっている箇所を特定し、処理を最適化する。例えば、データベースクエリの最適化、キャッシュの導入、非同期処理の導入などが考えられる。
+5. **エラーハンドリングの改善:** エラーが発生した場合に、適切なエラーハンドリングを行うようにする。エラーログを記録し、管理者に通知するだけでなく、自動的に問題を解決できるような仕組みを導入することも検討する。
+6. **注文処理の分散:** 注文処理を複数のサーバーに分散することで、負荷を分散し、システムの可用性を向上させる。
+7. **注文受付の制限:** システム負荷が高まっている時間帯には、注文受付を一時的に制限することも検討する。
+
+**ログデータの活用:**
+
+* **傾向分析:** ログデータを時系列で分析することで、注文のパターンやエラーの発生傾向を把握し、将来のトラブルを予測することができる。
+* **パフォーマンス改善:** ログデータを分析することで、注文処理のパフォーマンスを改善するためのヒントを得ることができる。
+* **システム監視:** ログデータをリアルタイムで監視することで、システムの状態を把握し、異常を早期に検知することができる。
+
+このログデータは、システムの状態を把握し、改善するための貴重な情報源となります。継続的にログデータを分析し、改善策を講じることで、より安定したシステムを構築することができます。
+"
