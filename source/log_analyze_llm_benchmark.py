@@ -44,11 +44,12 @@ def append_result_to_csv(row: Dict) -> None:
         log_print(f"[WARN] CSV append failed: {e}")
 
 # 比較対象モデル
+# 長すぎる場合は一部コメントアウトして調整すること
 LLM_MODELS = [
-    # "phi4-mini:latest",
-    # "llama3.1:8b",
+    "phi4-mini:latest",
+    "llama3.1:8b",
     "gpt-oss:20b",
-    # "gemma3:12b",
+    "gemma3:12b",
 ]
 
 def ensure_models_available(models: List[str]) -> None:
