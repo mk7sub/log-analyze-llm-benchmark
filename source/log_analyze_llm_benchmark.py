@@ -130,7 +130,14 @@ def ollama_generate(model: str, prompt: str) -> Tuple[str, Optional[int], Option
         eval_count: 評価トークン数（Noneの可能性あり）
         eval_duration: 評価時間[ns]（Noneの可能性あり）
     """
-    response = ollama.generate(model=model, prompt=prompt, options={"temperature": 0})
+    response = ollama.generate(
+        model=model, 
+        prompt=prompt, 
+        options={
+          "num_ctx": 16384,
+          "temperature": 0
+        }
+      )
     response_text = response.get("response", "")
     eval_count = response.get("eval_count")
     eval_duration = response.get("eval_duration")
