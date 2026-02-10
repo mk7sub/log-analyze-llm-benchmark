@@ -1,0 +1,40 @@
+[MODEL] ダウンロード済みモデル一覧:
+  - gemma3:12b
+  - gpt-oss:20b
+  - llama3.1:8b
+  - phi4-mini
+  - phi4-mini:latest
+[MODEL] phi4-mini:latest は既に利用可能です
+[MODEL] llama3.1:8b は既に利用可能です
+[MODEL] gpt-oss:20b は既に利用可能です
+[MODEL] gemma3:12b は既に利用可能です
+[WARMUP] phi4-mini:latest ...
+[WARMUP] phi4-mini:latest done.
+[EVAL] phi4-mini:latest ...
+[EVAL] phi4-mini:latest done.
+[COOLDOWN] phi4-mini:latest cooldown (no unload API in ollama-python)
+[WARMUP] llama3.1:8b ...
+[WARMUP] llama3.1:8b done.
+[EVAL] llama3.1:8b ...
+[EVAL] llama3.1:8b done.
+[COOLDOWN] llama3.1:8b cooldown (no unload API in ollama-python)
+[WARMUP] gpt-oss:20b ...
+[WARMUP] gpt-oss:20b done.
+[EVAL] gpt-oss:20b ...
+[EVAL] gpt-oss:20b done.
+[COOLDOWN] gpt-oss:20b cooldown (no unload API in ollama-python)
+[WARMUP] gemma3:12b ...
+[WARMUP] gemma3:12b done.
+[EVAL] gemma3:12b ...
+[EVAL] gemma3:12b done.
+[COOLDOWN] gemma3:12b cooldown (no unload API in ollama-python)
+
+=== Summary (per model) ===
+                  Accuracy    AvgTPS
+Model                               
+gemma3:12b        0.916667  2.120546
+gpt-oss:20b       0.750000  3.813701
+llama3.1:8b       0.416667  2.892452
+phi4-mini:latest  1.000000  4.466211
+
+Results saved to 'ollama_benchmark_results.csv'
