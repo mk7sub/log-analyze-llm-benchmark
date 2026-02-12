@@ -1,0 +1,20 @@
+[MODEL] ダウンロード済みモデル一覧:
+  - gemma3:12b
+  - gpt-oss:20b
+  - llama3.1:8b
+  - phi4-mini
+  - phi4-mini:latest
+[MODEL] phi4-mini:latest は既に利用可能です
+[WARMUP] phi4-mini:latest ...
+[WARMUP] phi4-mini:latest done.
+[EVAL] phi4-mini:latest ...
+[EVAL] phi4-mini:latest done.
+[COOLDOWN] Unloading phi4-mini:latest ...
+[COOLDOWN] phi4-mini:latest unload failed: module 'ollama' has no attribute 'unload'
+
+=== Summary (per model) ===
+                  Accuracy    AvgTPS
+Model                               
+phi4-mini:latest       0.5  5.361656
+
+Results saved to 'ollama_benchmark_results.csv'

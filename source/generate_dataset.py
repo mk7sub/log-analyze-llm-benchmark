@@ -244,6 +244,12 @@ def write_files() -> None:
     table_fieldnames = [
         "テストケースID",
         "テスト項目",
+        "パターン名",
+        "ログ種別",
+        "ログサイズ区分",
+        "期待判定",
+        "対象ログ開始行",
+        "対象ログ終了行",
         "前提条件",
         "確認手順",
         "期待結果",
@@ -317,15 +323,19 @@ def write_files() -> None:
                     "LLM が FAIL と判定すること。"
                 )
 
-            remarks = (
-                f"log/app.log の {row['start_line']} 行目～{row['end_line']} 行目を使用。 "
-                f"自動生成ケース: {row['description']}"
-            )
+            # 備考は空欄（テストパターン側に必要情報を集約）
+            remarks = ""
 
             writer.writerow(
                 {
                     "テストケースID": row["id"],
                     "テスト項目": test_item,
+                    "パターン名": row["name"],
+                    "ログ種別": row["kind"],
+                    "ログサイズ区分": row["size"],
+                    "期待判定": row["expected_label"],
+                    "対象ログ開始行": row["start_line"],
+                    "対象ログ終了行": row["end_line"],
                     "前提条件": precondition,
                     "確認手順": steps,
                     "期待結果": expected,
